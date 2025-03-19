@@ -1,6 +1,6 @@
 namespace com.eventsmanager.org;
-using { cuid } from '@sap/cds/common';
-entity Event : cuid{
+entity Event {
+    EventID: String(50);
     title: String(50);
     description: String(100);
     dateTime: Timestamp;
