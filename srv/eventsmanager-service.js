@@ -6,9 +6,9 @@ class EventsService extends cds.ApplicationService {
         await super.init();
     }
     async #validateEventEntry(req) {
-        const {EventID} = req.data;
+        const { EventID } = req.data;
         if (!EventID) return req.error(400, "Id_is_Required");
-        
+
         const [existingId] = await cds.run(SELECT.from("Event").where({ EventID }));
         if (existingId) req.error(409, "Id_exists");
     }

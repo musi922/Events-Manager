@@ -1,6 +1,6 @@
 namespace com.eventsmanager.org;
 entity Event {
-    EventID: String(50);
+    key EventID: String(50);
     title: String(50);
     description: String(100);
     dateTime: Timestamp;

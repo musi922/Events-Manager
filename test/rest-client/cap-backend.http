@@ -6,7 +6,7 @@ POST http://localhost:4004/odata/v4/events-manager/Event
 Content-Type: application/json
 
 {
-    "EventID": "",
+    "EventID": "3e2f1g4h-5i6j-7k8l-9m0n-o1p2q3r4s5t6",
     "title": "Startup Pitch Night",
     "description": "An event for startups to showcase their ideas.",
     "dateTime": "2025-10-10T18:30:00Z",
@@ -14,3 +14,19 @@ Content-Type: application/json
     "capacity": 300,
     "organizerId": "8e4f5b68-3c9d-4b7c-8a2d-7e35"
 }
+
+### update Event
+PATCH http://localhost:4004/odata/v4/events-manager/Event/3e2f1g4h-5i6j-7k8l-9m0n-o1p2q3r4s5t6
+Content-Type: application/json
+
+{
+    "title": "Startup Pitch ",
+    "description": "An event for startups to showcase their ideas.",
+    "dateTime": "2025-10-10T18:30:00Z",
+    "location": "New York, USA",
+    "capacity": 300,
+    "organizerId": "8e4f5b68-3c9d-4b7c-8a2d-7e35"
+}
+
+### Delete Event
+DELETE http://localhost:4004/odata/v4/events-manager/Event/3e2f1g4h-5i6j-7k8l-9m0n-o1p2q3r4s5t6
