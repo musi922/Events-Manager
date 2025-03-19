@@ -1,2 +1,16 @@
 ### Read Events
-http://localhost:4004/odata/v4/events-manager/Event
+GET http://localhost:4004/odata/v4/events-manager/Event
+
+### Create Event
+POST http://localhost:4004/odata/v4/events-manager/Event
+Content-Type: application/json
+
+{
+    "ID": "bd2c8e0f-8e47-4a36-a6f2-b0f8e1c2d7a6",
+    "title": "Startup Pitch Night",
+    "description": "An event for startups to showcase their ideas.",
+    "dateTime": "2025-10-10T18:30:00Z",
+    "location": "New York, USA",
+    "capacity": 300,
+    "organizerId": "8e4f5b68-3c9d-4b7c-8a2d-7e35"
+}
