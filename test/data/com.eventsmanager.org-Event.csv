@@ -1,1 +1,5 @@
-ID,title,description,dateTime,location,capacity,organizerId
+title,description,dateTime,location,capacity,organizerId
+Tech Conference 2025,A conference about the latest in tech innovations.,2025-09-15T09:00:00Z,Berlin, Germany,500,f3a9d58c-3c6e-411e-8a58-9a2d7e35b3c9
+Startup Pitch Night,An event for startups to showcase their ideas.,2025-10-10T18:30:00Z,New York, USA,300,8e4f5b68-3c9d-4b7c-8a2d-7e35b3c9f3a9
+AI & ML Summit,A deep dive into AI and machine learning trends.,2025-11-05T14:00:00Z,San Francisco, USA,400,c9f3a98e-4f5b-68c3-9d7e-35b3c9f3a9d5
+Blockchain Expo,A gathering of blockchain enthusiasts and experts.,2025-12-20T10:00:00Z,London, UK,600,a2d7e35b-3c9f-3a98-e4f5-b68c3d9d7e3
